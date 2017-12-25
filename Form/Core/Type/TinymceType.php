@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of the SHFormBundle package.
- *
- * (c) Olivier Chauvel <olivier@generation-multiple.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace SymfonyHackers\Bundle\FormBundle\Form\Core\Type;
 
 use Symfony\Component\Form\AbstractType;
@@ -17,11 +8,6 @@ use Symfony\Component\Form\FormView;
 use Symfony\Component\OptionsResolver\Options;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 
-/**
- * TinymceType
- *
- * @author Olivier Chauvel <olivier@generation-multiple.com>
- */
 class TinymceType extends AbstractType
 {
     private $options;

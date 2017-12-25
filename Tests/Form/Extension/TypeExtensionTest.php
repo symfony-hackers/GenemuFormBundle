@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of the SHFormBundle package.
- *
- * (c) Olivier Chauvel <olivier@generation-multiple.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace SymfonyHackers\Bundle\FormBundle\Tests\Form\Extension;
 
 use Symfony\Component\Form\Extension\Core\CoreExtension;
@@ -20,9 +11,6 @@ use SymfonyHackers\Bundle\FormBundle\Gd\Type\Captcha;
 use SymfonyHackers\Bundle\FormBundle\Form\Core\Validator\ReCaptchaValidator;
 use SymfonyHackers\Bundle\FormBundle\Form;
 
-/**
- * @author Olivier Chauvel <olivier@generation-multiple.com>
- */
 class TypeExtensionTest extends CoreExtension
 {
     protected $requestStack;

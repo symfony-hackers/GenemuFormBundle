@@ -1,33 +1,17 @@
 <?php
 
-/*
- * This file is part of the SHFormBundle package.
- *
- * (c) Olivier Chauvel <olivier@generation-multiple.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace SymfonyHackers\Bundle\FormBundle\Form\JQuery\Type;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Form\FormView;
 use Symfony\Component\Form\FormInterface;
-use Symfony\Component\HttpFoundation\File\File;
 use Symfony\Component\OptionsResolver\Options;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 
 use SymfonyHackers\Bundle\FormBundle\Form\Core\EventListener\FileListener;
 use SymfonyHackers\Bundle\FormBundle\Form\JQuery\DataTransformer\FileToValueTransformer;
 
-/**
- * FileType
- *
- * @author Olivier Chauvel <olivier@generation-multiple.com>
- * @author Bernhard Schussek <bernhard.schussek@symfony-project.com>
- */
 class FileType extends AbstractType
 {
     private $options;

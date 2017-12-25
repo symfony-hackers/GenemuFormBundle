@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of the SHFormBundle package.
- *
- * (c) Olivier Chauvel <olivier@generation-multiple.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace SymfonyHackers\Bundle\FormBundle\Gd\Type;
 
 use Symfony\Component\HttpFoundation\Session\Session;
@@ -21,9 +12,6 @@ use SymfonyHackers\Bundle\FormBundle\Gd\Filter\Background;
 use SymfonyHackers\Bundle\FormBundle\Gd\Filter\Border;
 use SymfonyHackers\Bundle\FormBundle\Gd\Filter\GrayScale;
 
-/**
- * @author Olivier Chauvel <olivier@generation-multiple.com>
- */
 class Captcha extends Gd
 {
     protected $session;

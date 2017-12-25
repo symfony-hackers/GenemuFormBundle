@@ -5,7 +5,6 @@ namespace SymfonyHackers\Bundle\FormBundle\Form\Core\Type;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormInterface;
 use Symfony\Component\Form\FormView;
-use Symfony\Component\OptionsResolver\Options;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 
 use Symfony\Component\Form\Extension\Core\Type\DateType;
@@ -13,8 +12,6 @@ use Symfony\Component\Form\Extension\Core\Type\DateType;
 /**
  * A Form type that just renders the field as a p tag. This is useful for forms where certain field
  * need to be shown but not editable.
- *
- * @author Adam Kuśmierz <adam@kusmierz.be>
  */
 class PlainType extends AbstractType
 {
