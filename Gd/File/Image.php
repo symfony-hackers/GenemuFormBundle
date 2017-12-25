@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of the Genemu package.
- *
- * (c) Olivier Chauvel <olivier@generation-multiple.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace SymfonyHackers\Bundle\FormBundle\Gd\File;
 
 use Symfony\Component\Finder\Finder;
@@ -23,9 +14,6 @@ use SymfonyHackers\Bundle\FormBundle\Gd\Filter\GrayScale;
 use SymfonyHackers\Bundle\FormBundle\Gd\Filter\Blur;
 use SymfonyHackers\Bundle\FormBundle\Gd\Filter\Opacity;
 
-/**
- * @author Olivier Chauvel <olivier@generation-multiple.com>
- */
 class Image extends File
 {
     protected $gd = null;

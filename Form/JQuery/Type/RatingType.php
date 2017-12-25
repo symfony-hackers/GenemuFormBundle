@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of the SHFormBundle package.
- *
- * (c) Olivier Chauvel <olivier@generation-multiple.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace SymfonyHackers\Bundle\FormBundle\Form\JQuery\Type;
 
 use Symfony\Component\Form\AbstractType;
@@ -18,12 +9,6 @@ use Symfony\Component\Form\FormInterface;
 use Symfony\Component\OptionsResolver\Options;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 
-/**
- * RatingType
- *
- * @author Olivier Chauvel <olivier@generation-multiple.com>
- * @author Tom Adam <tomadam@instantiate.co.uk>
- */
 class RatingType extends AbstractType
 {
     /**

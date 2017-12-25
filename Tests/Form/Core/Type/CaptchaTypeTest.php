@@ -1,23 +1,10 @@
 <?php
 
-/*
- * This file is part of the SHFormBundle package.
- *
- * (c) Olivier Chauvel <olivier@generation-multiple.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace SymfonyHackers\Bundle\FormBundle\Tests\Form\Core\Type;
 
 use Symfony\Component\HttpFoundation\File\Exception\FileNotFoundException;
 use SymfonyHackers\Bundle\FormBundle\Tests\Form\Type\TypeTestCase;
-use SymfonyHackers\Bundle\FormBundle\Form\Core\Type\CaptchaType;
 
-/**
- * @author Olivier Chauvel <olivier@generation-multiple.com>
- */
 class CaptchaTypeTest extends TypeTestCase
 {
     public function setUp()

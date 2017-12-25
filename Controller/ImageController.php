@@ -1,27 +1,13 @@
 <?php
 
-/*
- * This file is part of the SHFormBundle package.
- *
- * (c) Olivier Chauvel <olivier@generation-multiple.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace SymfonyHackers\Bundle\FormBundle\Controller;
 
 use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
-use SymfonyHackers\Bundle\FormBundle\Gd\File\Image;
 use Symfony\Component\HttpFoundation\Request;
+use SymfonyHackers\Bundle\FormBundle\Gd\File\Image;
 
-/**
- * Class ImageController
- *
- * @author Olivier Chauvel <olivier@generation-multiple.com>
- */
 class ImageController implements ContainerAwareInterface
 {
     /**

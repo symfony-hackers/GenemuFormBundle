@@ -1,23 +1,11 @@
 <?php
 
-/*
- * This file is part of the Genemu package.
- *
- * (c) Olivier Chauvel <olivier@generation-multiple.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace SymfonyHackers\Bundle\FormBundle\Gd;
 
 use Symfony\Component\HttpFoundation\File\File;
 
 use SymfonyHackers\Bundle\FormBundle\Gd\Filter\Filter;
 
-/**
- * @author Olivier Chauvel <olivier@generation-multiple.com>
- */
 class Gd implements GdInterface
 {
     protected $resource;

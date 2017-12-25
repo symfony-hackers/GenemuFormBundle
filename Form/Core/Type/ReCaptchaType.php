@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of the SHFormBundle package.
- *
- * (c) Olivier Chauvel <olivier@generation-multiple.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace SymfonyHackers\Bundle\FormBundle\Form\Core\Type;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
@@ -20,11 +11,6 @@ use Symfony\Component\Form\Exception\FormException;
 use Symfony\Component\OptionsResolver\Options;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
-/**
- * ReCaptchaType
- *
- * @author Olivier Chauvel <olivier@generation-multiple.com>
- */
 class ReCaptchaType extends AbstractType
 {
     private $validator;
@@ -33,8 +19,6 @@ class ReCaptchaType extends AbstractType
     private $options;
 
     /**
-     * Constructs
-     *
      * @param EventSubscriberInterface $validator
      * @param string                   $pulicKey
      * @param string                   $serverUrl

@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of the SHFormBundle package.
- *
- * (c) Olivier Chauvel <olivier@generation-multiple.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace SymfonyHackers\Bundle\FormBundle\Form\Core\EventListener;
 
 use Symfony\Component\Form\FormEvents;
@@ -20,9 +11,6 @@ use SymfonyHackers\Bundle\FormBundle\Gd\File\Image;
 
 /**
  * Adds a protocol to a URL if it doesn't already have one.
- *
- * @author Bernhard Schussek <bernhard.schussek@symfony-project.com>
- * @author Olivier Chauvel <olivier@generation-multiple.com>
  */
 class FileListener implements EventSubscriberInterface
 {

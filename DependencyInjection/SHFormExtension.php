@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of the SHFormBundle package.
- *
- * (c) Olivier Chauvel <olivier@generation-multiple.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace SymfonyHackers\Bundle\FormBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\DefinitionDecorator;
@@ -19,12 +10,7 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
 
-/**
- * GenemuFormExtension.
- *
- * @author Olivier Chauvel <olivier@generation-multiple.com>
- */
-class GenemuFormExtension extends Extension
+class SHFormExtension extends Extension
 {
     /**
      * Responds to the genemu_form configuration parameter.
