@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\Form\Core\Type;
+namespace SymfonyHackers\Bundle\FormBundle\Form\Core\Type;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\Form\AbstractType;

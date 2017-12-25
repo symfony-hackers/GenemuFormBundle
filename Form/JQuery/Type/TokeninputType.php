@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\Form\JQuery\Type;
+namespace SymfonyHackers\Bundle\FormBundle\Form\JQuery\Type;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -18,8 +18,8 @@ use Symfony\Component\Form\FormInterface;
 use Symfony\Component\OptionsResolver\Options;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 
-use Genemu\Bundle\FormBundle\Form\Core\ChoiceList\AjaxSimpleChoiceList;
-use Genemu\Bundle\FormBundle\Form\Core\DataTransformer\ChoiceToJsonTransformer;
+use SymfonyHackers\Bundle\FormBundle\Form\Core\ChoiceList\AjaxSimpleChoiceList;
+use SymfonyHackers\Bundle\FormBundle\Form\Core\DataTransformer\ChoiceToJsonTransformer;
 
 /**
  * @author Adam Kuśmierz <adam@kusmierz.be>

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\Form\Core\Type;
+namespace SymfonyHackers\Bundle\FormBundle\Form\Core\Type;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -17,8 +17,8 @@ use Symfony\Component\Form\FormView;
 use Symfony\Component\Form\FormInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
-use Genemu\Bundle\FormBundle\Gd\Type\Captcha;
-use Genemu\Bundle\FormBundle\Form\Core\Validator\CaptchaValidator;
+use SymfonyHackers\Bundle\FormBundle\Gd\Type\Captcha;
+use SymfonyHackers\Bundle\FormBundle\Form\Core\Validator\CaptchaValidator;
 
 /**
  * CaptchaType

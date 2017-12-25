@@ -29,4 +29,4 @@ public function buildForm(FormBuilder $builder, array $options)
 
 ## Extra
 
-[Ajax MongoDB](https://github.com/genemu/GenemuFormBundle/blob/master/Resources/doc/jquery/autocomplete/mongodb_ajax.md)
+[Ajax MongoDB](Resources/doc/jquery/autocomplete/mongodb_ajax.md)

@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\Tests\Form\Type;
+namespace SymfonyHackers\Bundle\FormBundle\Tests\Form\Type;
 
 use Symfony\Component\Form\Test\TypeTestCase as BaseTypeTestCase;
-use Genemu\Bundle\FormBundle\Tests\Form\Extension\TypeExtensionTest;
+use SymfonyHackers\Bundle\FormBundle\Tests\Form\Extension\TypeExtensionTest;
 
 /**
  * @author Olivier Chauvel <olivier@generation-multiple.com>

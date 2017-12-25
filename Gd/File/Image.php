@@ -9,19 +9,19 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\Gd\File;
+namespace SymfonyHackers\Bundle\FormBundle\Gd\File;
 
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\HttpFoundation\File\File;
 
-use Genemu\Bundle\FormBundle\Gd\Gd;
-use Genemu\Bundle\FormBundle\Gd\Filter\Crop;
-use Genemu\Bundle\FormBundle\Gd\Filter\Rotate;
-use Genemu\Bundle\FormBundle\Gd\Filter\Negate;
-use Genemu\Bundle\FormBundle\Gd\Filter\Colorize;
-use Genemu\Bundle\FormBundle\Gd\Filter\GrayScale;
-use Genemu\Bundle\FormBundle\Gd\Filter\Blur;
-use Genemu\Bundle\FormBundle\Gd\Filter\Opacity;
+use SymfonyHackers\Bundle\FormBundle\Gd\Gd;
+use SymfonyHackers\Bundle\FormBundle\Gd\Filter\Crop;
+use SymfonyHackers\Bundle\FormBundle\Gd\Filter\Rotate;
+use SymfonyHackers\Bundle\FormBundle\Gd\Filter\Negate;
+use SymfonyHackers\Bundle\FormBundle\Gd\Filter\Colorize;
+use SymfonyHackers\Bundle\FormBundle\Gd\Filter\GrayScale;
+use SymfonyHackers\Bundle\FormBundle\Gd\Filter\Blur;
+use SymfonyHackers\Bundle\FormBundle\Gd\Filter\Opacity;
 
 /**
  * @author Olivier Chauvel <olivier@generation-multiple.com>
@@ -222,7 +222,7 @@ class Image extends File
     /**
      * Get gd manipulator
      *
-     * @return \Genemu\Bundle\FormBundle\Gd\Gd
+     * @return \SymfonyHackers\Bundle\FormBundle\Gd\Gd
      */
     public function getGd()
     {

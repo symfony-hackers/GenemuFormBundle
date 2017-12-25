@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\Tests\Form\Core\Type;
+namespace SymfonyHackers\Bundle\FormBundle\Tests\Form\Core\Type;
 
-use Genemu\Bundle\FormBundle\Tests\Form\Type\TypeTestCase;
-use Genemu\Bundle\FormBundle\Form\Core\Type\ReCaptchaType;
-use Genemu\Bundle\FormBundle\Form\Core\Validator\ReCaptchaValidator;
+use SymfonyHackers\Bundle\FormBundle\Tests\Form\Type\TypeTestCase;
+use SymfonyHackers\Bundle\FormBundle\Form\Core\Type\ReCaptchaType;
+use SymfonyHackers\Bundle\FormBundle\Form\Core\Validator\ReCaptchaValidator;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
@@ -23,7 +23,7 @@ class ReCaptchaTypeTest extends TypeTestCase
 {
     public function testDefaultConfigs()
     {
-        $form = $this->factory->create('Genemu\Bundle\FormBundle\Form\Core\Type\ReCaptchaType');
+        $form = $this->factory->create('SymfonyHackers\Bundle\FormBundle\Form\Core\Type\ReCaptchaType');
         $view = $form->createView();
 
         $this->assertEquals('publicKey', $view->vars['public_key']);
@@ -41,7 +41,7 @@ class ReCaptchaTypeTest extends TypeTestCase
 
     public function testConfigs()
     {
-        $form = $this->factory->create('Genemu\Bundle\FormBundle\Form\Core\Type\ReCaptchaType', null, array(
+        $form = $this->factory->create('SymfonyHackers\Bundle\FormBundle\Form\Core\Type\ReCaptchaType', null, array(
             'configs' => array(
                 'theme' => 'blackglass',
             ),
@@ -69,7 +69,7 @@ class ReCaptchaTypeTest extends TypeTestCase
         $request = new Request(array(), array('recaptcha_response_field' => $code));
         $this->requestStack->method('getMasterRequest')->willReturn($request);
 
-        $form = $this->factory->create('Genemu\Bundle\FormBundle\Form\Core\Type\ReCaptchaType');
+        $form = $this->factory->create('SymfonyHackers\Bundle\FormBundle\Form\Core\Type\ReCaptchaType');
 
         $form->submit(null);
 

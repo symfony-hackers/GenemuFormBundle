@@ -20,41 +20,41 @@
     </parameters>
 
     <services>
-        <service id="genemu.form.jquery.type.autocompleter" class="Genemu\Bundle\FormBundle\Form\JQuery\Type\AutocompleterType" abstract="true" />
-        <service id="genemu.form.jquery.type.autocomplete" class="Genemu\Bundle\FormBundle\Form\JQuery\Type\AutocompleteType" abstract="true" />
-        <service id="genemu.form.jquery.type.chosen" class="Genemu\Bundle\FormBundle\Form\JQuery\Type\ChosenType" abstract="true" />
-        <service id="genemu.form.jquery.type.select2" class="Genemu\Bundle\FormBundle\Form\JQuery\Type\Select2Type" abstract="true" />
+        <service id="genemu.form.jquery.type.autocompleter" class="SymfonyHackers\Bundle\FormBundle\Form\JQuery\Type\AutocompleterType" abstract="true" />
+        <service id="genemu.form.jquery.type.autocomplete" class="SymfonyHackers\Bundle\FormBundle\Form\JQuery\Type\AutocompleteType" abstract="true" />
+        <service id="genemu.form.jquery.type.chosen" class="SymfonyHackers\Bundle\FormBundle\Form\JQuery\Type\ChosenType" abstract="true" />
+        <service id="genemu.form.jquery.type.select2" class="SymfonyHackers\Bundle\FormBundle\Form\JQuery\Type\Select2Type" abstract="true" />
 
-        <service id="genemu.form.jquery.type.color" class="Genemu\Bundle\FormBundle\Form\JQuery\Type\ColorType">
+        <service id="genemu.form.jquery.type.color" class="SymfonyHackers\Bundle\FormBundle\Form\JQuery\Type\ColorType">
             <tag name="form.type" alias="genemu_jquerycolor" />
             <argument>%genemu.form.color.options%</argument>
         </service>
-        <service id="genemu.form.jquery.type.date" class="Genemu\Bundle\FormBundle\Form\JQuery\Type\DateType">
+        <service id="genemu.form.jquery.type.date" class="SymfonyHackers\Bundle\FormBundle\Form\JQuery\Type\DateType">
             <tag name="form.type" alias="genemu_jquerydate" />
             <argument>%genemu.form.date.options%</argument>
         </service>
-        <service id="genemu.form.jquery.type.file" class="Genemu\Bundle\FormBundle\Form\JQuery\Type\FileType">
+        <service id="genemu.form.jquery.type.file" class="SymfonyHackers\Bundle\FormBundle\Form\JQuery\Type\FileType">
             <tag name="form.type" alias="genemu_jqueryfile" />
             <argument>%genemu.form.file.options%</argument>
             <argument>%genemu.form.file.root_dir%</argument>
         </service>
-        <service id="genemu.form.jquery.type.geolocation" class="Genemu\Bundle\FormBundle\Form\JQuery\Type\GeolocationType">
+        <service id="genemu.form.jquery.type.geolocation" class="SymfonyHackers\Bundle\FormBundle\Form\JQuery\Type\GeolocationType">
             <tag name="form.type" alias="genemu_jquerygeolocation" />
         </service>
-        <service id="genemu.form.jquery.type.image" class="Genemu\Bundle\FormBundle\Form\JQuery\Type\ImageType">
+        <service id="genemu.form.jquery.type.image" class="SymfonyHackers\Bundle\FormBundle\Form\JQuery\Type\ImageType">
             <tag name="form.type" alias="genemu_jqueryimage" />
             <argument>%genemu.form.image.selected%</argument>
             <argument>%genemu.form.image.thumbnails%</argument>
             <argument>%genemu.form.image.filters%</argument>
         </service>
-        <service id="genemu.form.jquery.type.rating" class="Genemu\Bundle\FormBundle\Form\JQuery\Type\RatingType">
+        <service id="genemu.form.jquery.type.rating" class="SymfonyHackers\Bundle\FormBundle\Form\JQuery\Type\RatingType">
             <tag name="form.type" alias="genemu_jqueryrating" />
             <argument>%genemu.form.rating.options%</argument>
         </service>
-        <service id="genemu.form.jquery.type.slider" class="Genemu\Bundle\FormBundle\Form\JQuery\Type\SliderType">
+        <service id="genemu.form.jquery.type.slider" class="SymfonyHackers\Bundle\FormBundle\Form\JQuery\Type\SliderType">
             <tag name="form.type" alias="genemu_jqueryslider" />
         </service>
-        <service id="genemu.form.jquery.type.tokeninput" class="Genemu\Bundle\FormBundle\Form\JQuery\Type\TokeninputType" abstract="true" />
+        <service id="genemu.form.jquery.type.tokeninput" class="SymfonyHackers\Bundle\FormBundle\Form\JQuery\Type\TokeninputType" abstract="true" />
     </services>
 
 </container>

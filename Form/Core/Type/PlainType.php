@@ -1,6 +1,6 @@
 <?php
 
-namespace Genemu\Bundle\FormBundle\Form\Core\Type;
+namespace SymfonyHackers\Bundle\FormBundle\Form\Core\Type;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormInterface;

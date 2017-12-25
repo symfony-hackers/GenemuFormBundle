@@ -43,4 +43,4 @@ public function buildForm(FormBuilder $builder, array $options)
 
 ## Extra:
 
-[Configuration](https://github.com/genemu/GenemuFormBundle/blob/master/Resources/doc/jquery/tinymce/default.md)
+[Configuration](Resources/doc/jquery/tinymce/default.md)

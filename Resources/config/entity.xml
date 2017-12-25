@@ -5,7 +5,7 @@
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="genemu.form.entity.type.ajaxentity" class="Genemu\Bundle\FormBundle\Form\Doctrine\Type\AjaxEntityType">
+        <service id="genemu.form.entity.type.ajaxentity" class="SymfonyHackers\Bundle\FormBundle\Form\Doctrine\Type\AjaxEntityType">
             <tag name="form.type" alias="genemu_ajaxentity" />
             <argument type="service" id="doctrine" on-invalid="ignore" />
         </service>

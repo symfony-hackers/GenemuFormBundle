@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\Tests\Form\Extension;
+namespace SymfonyHackers\Bundle\FormBundle\Tests\Form\Extension;
 
 use Symfony\Component\Form\Extension\Core\CoreExtension;
 use Symfony\Component\HttpFoundation\Session\Session;
 use Symfony\Component\HttpFoundation\Session\Storage\MockArraySessionStorage;
 use Symfony\Component\HttpFoundation\RequestStack;
 
-use Genemu\Bundle\FormBundle\Gd\Type\Captcha;
-use Genemu\Bundle\FormBundle\Form\Core\Validator\ReCaptchaValidator;
-use Genemu\Bundle\FormBundle\Form;
+use SymfonyHackers\Bundle\FormBundle\Gd\Type\Captcha;
+use SymfonyHackers\Bundle\FormBundle\Form\Core\Validator\ReCaptchaValidator;
+use SymfonyHackers\Bundle\FormBundle\Form;
 
 /**
  * @author Olivier Chauvel <olivier@generation-multiple.com>

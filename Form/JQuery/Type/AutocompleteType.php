@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\Form\JQuery\Type;
+namespace SymfonyHackers\Bundle\FormBundle\Form\JQuery\Type;
 
 use Doctrine\Common\Persistence\ManagerRegistry;
 use Symfony\Component\Form\AbstractType;

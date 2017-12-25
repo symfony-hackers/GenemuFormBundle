@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\Form\JQuery\Type;
+namespace SymfonyHackers\Bundle\FormBundle\Form\JQuery\Type;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -19,8 +19,8 @@ use Symfony\Component\HttpFoundation\File\File;
 use Symfony\Component\OptionsResolver\Options;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 
-use Genemu\Bundle\FormBundle\Form\Core\EventListener\FileListener;
-use Genemu\Bundle\FormBundle\Form\JQuery\DataTransformer\FileToValueTransformer;
+use SymfonyHackers\Bundle\FormBundle\Form\Core\EventListener\FileListener;
+use SymfonyHackers\Bundle\FormBundle\Form\JQuery\DataTransformer\FileToValueTransformer;
 
 /**
  * FileType

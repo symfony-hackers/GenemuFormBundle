@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\Form\Model\ChoiceList;
+namespace SymfonyHackers\Bundle\FormBundle\Form\Model\ChoiceList;
 
 use Symfony\Bridge\Propel1\Form\ChoiceList\ModelChoiceList;
 use Symfony\Component\PropertyAccess\PropertyPath;

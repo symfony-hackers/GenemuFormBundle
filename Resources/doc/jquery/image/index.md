@@ -32,4 +32,4 @@ public function buildForm(FormBuilder $builder, array $options)
 
 ## Extra
 
-[Configuration](https://github.com/genemu/GenemuFormBundle/blob/master/Resources/doc/jquery/image/default.md)
+[Configuration](Resources/doc/jquery/image/default.md)

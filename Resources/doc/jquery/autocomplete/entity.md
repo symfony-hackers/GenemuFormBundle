@@ -20,4 +20,4 @@ public function buildForm(FormBuilder $builder, array $options)
 
 ## Extra
 
-[Ajax Entity](https://github.com/genemu/GenemuFormBundle/blob/master/Resources/doc/jquery/autocomplete/entity_ajax.md)
+[Ajax Entity](Resources/doc/jquery/autocomplete/entity_ajax.md)

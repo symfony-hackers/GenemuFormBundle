@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\Form\Doctrine\ChoiceList;
+namespace SymfonyHackers\Bundle\FormBundle\Form\Doctrine\ChoiceList;
 
 use Symfony\Bridge\Doctrine\Form\ChoiceList\EntityChoiceList;
 use Symfony\Component\PropertyAccess\PropertyPath;

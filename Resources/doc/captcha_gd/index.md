@@ -94,4 +94,4 @@ public function buildForm(FormBuilder $builder, array $options)
 
 ## Extra:
 
-[Default configuration](https://github.com/genemu/GenemuFormBundle/blob/master/Resources/doc/captcha_gd/default.md)
+[Default configuration](Resources/doc/captcha_gd/default.md)

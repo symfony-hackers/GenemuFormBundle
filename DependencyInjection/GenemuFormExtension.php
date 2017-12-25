@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\DependencyInjection;
+namespace SymfonyHackers\Bundle\FormBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\DefinitionDecorator;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;

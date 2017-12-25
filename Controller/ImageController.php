@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\Controller;
+namespace SymfonyHackers\Bundle\FormBundle\Controller;
 
 use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
-use Genemu\Bundle\FormBundle\Gd\File\Image;
+use SymfonyHackers\Bundle\FormBundle\Gd\File\Image;
 use Symfony\Component\HttpFoundation\Request;
 
 /**

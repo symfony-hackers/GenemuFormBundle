@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\Form\Core\Validator;
+namespace SymfonyHackers\Bundle\FormBundle\Form\Core\Validator;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\Form\FormEvent;
@@ -17,7 +17,7 @@ use Symfony\Component\Form\FormInterface;
 use Symfony\Component\Form\FormEvents;
 use Symfony\Component\Form\FormError;
 
-use Genemu\Bundle\FormBundle\Gd\Type\Captcha;
+use SymfonyHackers\Bundle\FormBundle\Gd\Type\Captcha;
 
 /**
  * CaptchaValidator

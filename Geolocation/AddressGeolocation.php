@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\Geolocation;
+namespace SymfonyHackers\Bundle\FormBundle\Geolocation;
 
 /**
  * @author Olivier Chauvel <olivier@generation-multiple.com>

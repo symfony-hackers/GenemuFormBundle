@@ -20,4 +20,4 @@ public function buildForm(FormBuilder $builder, array $options)
 
 ## Extra
 
-[Ajax Choices](https://github.com/genemu/GenemuFormBundle/blob/master/Resources/doc/jquery/autocomplete/choices_ajax.md)
+[Ajax Choices](Resources/doc/jquery/autocomplete/choices_ajax.md)
