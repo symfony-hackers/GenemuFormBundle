@@ -3,6 +3,7 @@
 namespace SymfonyHackers\Bundle\FormBundle\Tests\Form\Type;
 
 use Symfony\Component\Form\Test\TypeTestCase as BaseTypeTestCase;
+use Symfony\Component\HttpFoundation\RequestStack;
 use SymfonyHackers\Bundle\FormBundle\Tests\Form\Extension\TypeExtensionTest;
 
 abstract class TypeTestCase extends BaseTypeTestCase
@@ -23,8 +24,13 @@ abstract class TypeTestCase extends BaseTypeTestCase
         );
     }
 
+    /**
+     * @return \PHPUnit_Framework_MockObject_MockObject|RequestStack
+     */
     protected function createRequestStackMock()
     {
-        return $this->requestStack = $this->createMock('Symfony\Component\HttpFoundation\RequestStack');
+        return $this->requestStack = $this->getMockBuilder('Symfony\Component\HttpFoundation\RequestStack')
+            ->disableOriginalConstructor()
+            ->getMock();
     }
 }
