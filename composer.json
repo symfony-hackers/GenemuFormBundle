@@ -1,7 +1,7 @@
 {
     "name": "symfony-hackers/form-bundle",
     "type": "symfony-bundle",
-    "description": "Extra form types for your Symfony2 projects",
+    "description": "Extra form types for your Symfony projects",
     "keywords": ["form", "extra form"],
     "license": "MIT",
     "authors": [

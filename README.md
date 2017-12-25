@@ -83,4 +83,4 @@ The principle is to separate the javascript, stylesheet and html. This allows be
 
 ## Note
 
-There are maybe some bugs in those implementations, this package is just an idea of form types which can be very useful for your Symfony2 projects.
+There are maybe some bugs in those implementations, this package is just an idea of form types which can be very useful for your Symfony projects.
