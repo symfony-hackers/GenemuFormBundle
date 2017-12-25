@@ -12,7 +12,7 @@
     bootstrap="./Tests/bootstrap.php"
 >
     <testsuites>
-        <testsuite name="GenemuFormBundle test suite">
+        <testsuite name="SHFormBundle test suite">
             <directory suffix="Test.php">./Tests</directory>
         </testsuite>
     </testsuites>

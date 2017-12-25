@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the GenemuFormBundle package.
+ * This file is part of the SHFormBundle package.
  *
  * (c) Olivier Chauvel <olivier@generation-multiple.com>
  *

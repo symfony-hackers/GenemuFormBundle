@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the GenemuFormBundle package.
+ * This file is part of the SHFormBundle package.
  *
  * (c) Olivier Chauvel <olivier@generation-multiple.com>
  *
@@ -29,7 +29,7 @@ class FormPass implements CompilerPassInterface
         $resources = $container->getParameter('twig.form.resources');
 
         foreach (array('div', 'jquery', 'stylesheet') as $template) {
-            $resources[] = 'GenemuFormBundle:Form:' . $template . '_layout.html.twig';
+            $resources[] = 'SHFormBundle:Form:' . $template . '_layout.html.twig';
         }
 
         $container->setParameter('twig.form.resources', $resources);

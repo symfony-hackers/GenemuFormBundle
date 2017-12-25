@@ -1,6 +1,6 @@
 # Captcha GD Field
 
-![Default captcha](https://github.com/genemu/GenemuFormBundle/raw/master/Resources/doc/captcha_gd/images/default.png)
+![Default captcha](https://github.com/genemu/SHFormBundle/raw/master/Resources/doc/captcha_gd/images/default.png)
 
 ## Minimal configuration:
 
@@ -18,7 +18,7 @@ In order to allow the captcha refresh, there is a route to call, but you have to
  ``` yml
 # app/config/routing.yml
 genemu_base64:
-    resource: "@GenemuFormBundle/Resources/config/routing/base64.xml"
+    resource: "@SHFormBundle/Resources/config/routing/base64.xml"
  ```
 
 2) Customize the templates
@@ -57,7 +57,7 @@ genemu_base64:
 ``` yml
 # app/config/routing.yml
 genemu_base64:
-    resource: "@GenemuFormBundle/Resources/config/routing/base64.xml"
+    resource: "@SHFormBundle/Resources/config/routing/base64.xml"
 ```
 
 * also your captcha should be small, because IE supports only 2083 characters in requests (otherwise they are just skipped).

@@ -1,6 +1,6 @@
 # Add form_javascript and form_stylesheet
 
-You use GenemuFormBundle and you seen that it does not work!
+You use SHFormBundle and you seen that it does not work!
 Maybe you have forgotten form_javascript or form_stylesheet.
 
 The principle is to separate the javascript, stylesheet and html.

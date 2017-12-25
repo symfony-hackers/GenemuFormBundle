@@ -30,7 +30,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new SymfonyHackers\Bundle\FormBundle\GenemuFormBundle(),
+        new SymfonyHackers\Bundle\FormBundle\SHFormBundle(),
     );
 }
 ```
@@ -72,7 +72,7 @@ The type name is ``genemu_plain``.
 
 ## Template
 
-You use GenemuFormBundle and you seen that it does not work!
+You use SHFormBundle and you seen that it does not work!
 Maybe you have forgotten ``form_javascript`` or ``form_stylesheet``.
 
 The principle is to separate the javascript, stylesheet and html. This allows better integration of web pages.
