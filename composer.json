@@ -34,9 +34,8 @@
         "doctrine/mongodb-odm-bundle": "For MongoDB integration"
     },
     "autoload": {
-        "psr-4": {
-            "SymfonyHackers\\Bundle\\FormBundle": ""
-        }
+        "psr-4": {"Genemu\\Bundle\\FormBundle\\": ""},
+        "exclude-from-classmap": ["/Tests/"]
     },
     "extra": {
         "branch-alias": {
