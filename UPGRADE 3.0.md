@@ -1,24 +1,25 @@
 UPGRADE to 3.0
 ==============
 
-`3.*` is a transition step before `4.*`, where the supported form types will be reduced.
-Deprecation triggers will be added in unsupported types until they're eventually removed in `4.*`.
+*This document is not really actual for now*
 
-Even though it requires the composer `@dev`flag, the `3.*` version focuses on stability.
-We didn't introduce a separate branch to make maintenance easier.
+~~`3.*` is a transition step before `4.*`, where the supported form types will be reduced.
+Deprecation triggers will be added in unsupported types until they're eventually removed in `4.*`.~~
 
-### Form types
+~~Even though it requires the composer `@dev`flag, the `3.*` version focuses on stability.
+We didn't introduce a separate branch to make maintenance easier.~~
 
-The bundle now mainly focuses on form types being related to a backend application :
+### ~~Form types~~
 
-- Captcha (requires session, generation of a code with GD extension)
-- ReCaptcha (requires an HTTP API call)
-- Autocomplete, Select2 (requires custom transformers, AJAX endpoint)
-- Plain
+~~The bundle now mainly focuses on form types being related to a backend application :~~
 
-All other types should be considered as removed.
+- ~~Captcha (requires session, generation of a code with GD extension)~~
+- ~~ReCaptcha (requires an HTTP API call)~~
+- ~~Autocomplete, Select2 (requires custom transformers, AJAX endpoint)~~
+- ~~Plain~~
 
-### Symfony version
+~~All other types should be considered as removed.~~
 
-The bundle supports Symfony 2.8 and Symfony 3 as well.
+### ~~Symfony version~~
 
+~~The bundle supports Symfony 3 and Symfony 4.~~
