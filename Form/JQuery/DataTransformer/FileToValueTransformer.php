@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the GenemuFormBundle package.
+ * This file is part of the SHFormBundle package.
  *
  * (c) Olivier Chauvel <olivier@generation-multiple.com>
  *
@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\Form\JQuery\DataTransformer;
+namespace SymfonyHackers\Bundle\FormBundle\Form\JQuery\DataTransformer;
 
 use Symfony\Component\Form\DataTransformerInterface;
 use Symfony\Component\HttpFoundation\File\File;

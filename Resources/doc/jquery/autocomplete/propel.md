@@ -29,4 +29,4 @@ public function buildForm(FormBuilder $builder, array $options)
 
 ## Extra
 
-[Ajax Propel](https://github.com/genemu/GenemuFormBundle/blob/master/Resources/doc/jquery/autocomplete/propel_ajax.md)
+[Ajax Propel](Resources/doc/jquery/autocomplete/propel_ajax.md)

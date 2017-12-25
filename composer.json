@@ -6,6 +6,10 @@
     "license": "MIT",
     "authors": [
         {
+            "name": "Ilya Antipenko",
+            "email": "ilya@antipenko.pp.ua"
+        },
+        {
             "name": "Olivier Chauvel",
             "email": "olivier@generation-multiple.com"
         },
@@ -34,7 +38,7 @@
         "doctrine/mongodb-odm-bundle": "For MongoDB integration"
     },
     "autoload": {
-        "psr-4": {"Genemu\\Bundle\\FormBundle\\": ""},
+        "psr-4": {"SymfonyHackers\\Bundle\\FormBundle\\": ""},
         "exclude-from-classmap": ["/Tests/"]
     },
     "extra": {

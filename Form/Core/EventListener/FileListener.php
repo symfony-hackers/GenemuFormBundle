@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the GenemuFormBundle package.
+ * This file is part of the SHFormBundle package.
  *
  * (c) Olivier Chauvel <olivier@generation-multiple.com>
  *
@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\Form\Core\EventListener;
+namespace SymfonyHackers\Bundle\FormBundle\Form\Core\EventListener;
 
 use Symfony\Component\Form\FormEvents;
 use Symfony\Component\Form\FormEvent;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpFoundation\File\File;
 
-use Genemu\Bundle\FormBundle\Gd\File\Image;
+use SymfonyHackers\Bundle\FormBundle\Gd\File\Image;
 
 /**
  * Adds a protocol to a URL if it doesn't already have one.

@@ -38,4 +38,4 @@ public function buildForm(FormBuilder $builder, array $options)
 
 ## Extra
 
-[Ajax Suggestions](https://github.com/genemu/GenemuFormBundle/blob/master/Resources/doc/jquery/autocomplete/text_ajax.md)
+[Ajax Suggestions](Resources/doc/jquery/autocomplete/text_ajax.md)

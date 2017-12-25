@@ -1,6 +1,6 @@
 # JQueryColor Field ([view demo](http://www.eyecon.ro/colorpicker/))
 
-![Color picker](https://github.com/genemu/GenemuFormBundle/raw/master/Resources/doc/jquery/color/images/default.png)
+![Color picker](https://github.com/genemu/SHFormBundle/raw/master/Resources/doc/jquery/color/images/default.png)
 
 ## Default Usage:
 

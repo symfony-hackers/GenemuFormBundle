@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the GenemuFormBundle package.
+ * This file is part of the SHFormBundle package.
  *
  * (c) Olivier Chauvel <olivier@generation-multiple.com>
  *
@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\Form\Core\EventListener;
+namespace SymfonyHackers\Bundle\FormBundle\Form\Core\EventListener;
 
 use Symfony\Component\Form\FormEvents;
 use Symfony\Component\Form\FormEvent;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
-use Genemu\Bundle\FormBundle\Geolocation\AddressGeolocation;
+use SymfonyHackers\Bundle\FormBundle\Geolocation\AddressGeolocation;
 
 /**
  * GeoListener

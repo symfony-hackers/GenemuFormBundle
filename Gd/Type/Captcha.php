@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the GenemuFormBundle package.
+ * This file is part of the SHFormBundle package.
  *
  * (c) Olivier Chauvel <olivier@generation-multiple.com>
  *
@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\Gd\Type;
+namespace SymfonyHackers\Bundle\FormBundle\Gd\Type;
 
 use Symfony\Component\HttpFoundation\Session\Session;
 use Symfony\Component\HttpFoundation\File\Exception\FileNotFoundException;
 
-use Genemu\Bundle\FormBundle\Gd\Gd;
-use Genemu\Bundle\FormBundle\Gd\Filter\Text;
-use Genemu\Bundle\FormBundle\Gd\Filter\Strip;
-use Genemu\Bundle\FormBundle\Gd\Filter\Background;
-use Genemu\Bundle\FormBundle\Gd\Filter\Border;
-use Genemu\Bundle\FormBundle\Gd\Filter\GrayScale;
+use SymfonyHackers\Bundle\FormBundle\Gd\Gd;
+use SymfonyHackers\Bundle\FormBundle\Gd\Filter\Text;
+use SymfonyHackers\Bundle\FormBundle\Gd\Filter\Strip;
+use SymfonyHackers\Bundle\FormBundle\Gd\Filter\Background;
+use SymfonyHackers\Bundle\FormBundle\Gd\Filter\Border;
+use SymfonyHackers\Bundle\FormBundle\Gd\Filter\GrayScale;
 
 /**
  * @author Olivier Chauvel <olivier@generation-multiple.com>

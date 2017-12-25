@@ -17,7 +17,7 @@ public function buildForm(FormBuilder $builder, array $options)
 
 ## Extra
 
-1. [Choices](https://github.com/genemu/GenemuFormBundle/blob/master/Resources/doc/jquery/chosen/choices.md)
-2. [Entity](https://github.com/genemu/GenemuFormBundle/blob/master/Resources/doc/jquery/chosen/entity.md)
-3. [MongoDB](https://github.com/genemu/GenemuFormBundle/blob/master/Resources/doc/jquery/chosen/mongodb.md)
-4. [Propel](https://github.com/genemu/GenemuFormBundle/blob/master/Resources/doc/jquery/chosen/propel.md)
+1. [Choices](Resources/doc/jquery/chosen/choices.md)
+2. [Entity](Resources/doc/jquery/chosen/entity.md)
+3. [MongoDB](Resources/doc/jquery/chosen/mongodb.md)
+4. [Propel](Resources/doc/jquery/chosen/propel.md)

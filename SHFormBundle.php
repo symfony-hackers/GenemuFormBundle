@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the GenemuFormBundle package.
+ * This file is part of the SHFormBundle package.
  *
  * (c) Olivier Chauvel <olivier@generation-multiple.com>
  *
@@ -9,19 +9,19 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle;
+namespace SymfonyHackers\Bundle\FormBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
-use Genemu\Bundle\FormBundle\DependencyInjection\Compiler\FormPass;
+use SymfonyHackers\Bundle\FormBundle\DependencyInjection\Compiler\FormPass;
 
 /**
  * An extends of Symfony\Component\HttpKernel\Bundle\Bundle
  *
  * @author Olivier Chauvel <olivier@generation-multiple.com>
  */
-class GenemuFormBundle extends Bundle
+class SHFormBundle extends Bundle
 {
     /**
      * {@inheritdoc}

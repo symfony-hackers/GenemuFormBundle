@@ -29,14 +29,14 @@ Before :
  ``` yml
 # app/config/routing.yml
 genemu_base64:
-    resource: "@GenemuFormBundle/Controller/Base64Controller.php"
+    resource: "@SHFormBundle/Controller/Base64Controller.php"
     type:     annotation
  ```
 Now :
  ``` yml
 # app/config/routing.yml
 genemu_base64:
-    resource: "@GenemuFormBundle/Resources/config/routing/base64.xml"
+    resource: "@SHFormBundle/Resources/config/routing/base64.xml"
  ```
 
 ### Captcha

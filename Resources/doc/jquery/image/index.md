@@ -1,6 +1,6 @@
 # JQueryImage Field
 
-![Crop image](https://github.com/genemu/GenemuFormBundle/raw/master/Resources/doc/jquery/image/images/crop.png)
+![Crop image](https://github.com/genemu/SHFormBundle/raw/master/Resources/doc/jquery/image/images/crop.png)
 
 ## Minimal configuration:
 
@@ -14,7 +14,7 @@ genemu_form:
 
 ``` yml
 genemu_image:
-    resource: "@GenemuFormBundle/Resources/config/routing/image.xml"
+    resource: "@SHFormBundle/Resources/config/routing/image.xml"
 ```
 
 ## Default Usage:
@@ -32,4 +32,4 @@ public function buildForm(FormBuilder $builder, array $options)
 
 ## Extra
 
-[Configuration](https://github.com/genemu/GenemuFormBundle/blob/master/Resources/doc/jquery/image/default.md)
+[Configuration](Resources/doc/jquery/image/default.md)

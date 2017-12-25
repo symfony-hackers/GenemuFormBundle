@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the GenemuFormBundle package.
+ * This file is part of the SHFormBundle package.
  *
  * (c) Olivier Chauvel <olivier@generation-multiple.com>
  *
@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Genemu\Bundle\FormBundle\Form\Model\Type;
+namespace SymfonyHackers\Bundle\FormBundle\Form\Model\Type;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\OptionsResolver\Options;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 
-use Genemu\Bundle\FormBundle\Form\Model\ChoiceList\AjaxModelChoiceList;
+use SymfonyHackers\Bundle\FormBundle\Form\Model\ChoiceList\AjaxModelChoiceList;
 
 /**
  * AjaxModelType

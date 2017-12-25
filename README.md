@@ -1,21 +1,23 @@
-# FormBundle
+# SHFormBundle
 
-[![Build Status](https://secure.travis-ci.org/genemu/GenemuFormBundle.png)](https://travis-ci.org/genemu/GenemuFormBundle)
+This package is a **maintainable** fork of [GenemuFormBundle](https://github.com/genemu/GenemuFormBundle)
+
+[![Build Status](https://travis-ci.org/symfony-hackers/SHFormBundle.svg?branch=master)](https://travis-ci.org/symfony-hackers/SHFormBundle)
 
 ## Installation
 
 Installation is quick and easy, 3 steps process
 
-1. Install GenemuFormBundle
+1. Install SHFormBundle
 2. Enable the bundle
 3. Initialize assets
 
-### Step 1: Install GenemuFormBundle
+### Step 1: Install SHFormBundle
 
 Run the following command :
 
 ``` bash
-$ composer require genemu/form-bundle "^3.0@dev"
+$ composer require symfony-hackers/form-bundle "^3.0@dev"
 ```
 
 ### Step 2: Enable the bundle
@@ -30,7 +32,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Genemu\Bundle\FormBundle\GenemuFormBundle(),
+        new SymfonyHackers\Bundle\FormBundle\SHFormBundle(),
     );
 }
 ```
@@ -45,19 +47,19 @@ $ php app/console assets:install web/
 
 ### Select2 ([view demo](http://ivaynberg.github.com/select2/)):
 
-[View configuration](https://github.com/genemu/GenemuFormBundle/blob/master/Resources/doc/jquery/select2/index.md)
+[View configuration](Resources/doc/jquery/select2/index.md)
 
 ### Captcha GD
 
-[View configuration](https://github.com/genemu/GenemuFormBundle/blob/master/Resources/doc/captcha_gd/index.md)
+[View configuration](Resources/doc/captcha_gd/index.md)
 
 ### ReCaptcha ([Google library](http://www.google.com/recaptcha)):
 
-[View configuration](https://github.com/genemu/GenemuFormBundle/blob/master/Resources/doc/recaptcha/index.md)
+[View configuration](Resources/doc/recaptcha/index.md)
 
 ### JQueryUi ([download](http://jqueryui.com/)):
 
-- [Autocomplete](https://github.com/genemu/GenemuFormBundle/blob/master/Resources/doc/jquery/autocomplete/text.md)
+- [Autocomplete](Resources/doc/jquery/autocomplete/text.md)
 
 ### Plain
 
@@ -68,16 +70,16 @@ The type name is ``genemu_plain``.
 
 ## Tips
 
-[Prototype usage within form collections](https://github.com/genemu/GenemuFormBundle/blob/master/Resources/doc/tips/form_prototype.md)
+[Prototype usage within form collections](Resources/doc/tips/form_prototype.md)
 
 ## Template
 
-You use GenemuFormBundle and you seen that it does not work!
+You use SHFormBundle and you seen that it does not work!
 Maybe you have forgotten ``form_javascript`` or ``form_stylesheet``.
 
 The principle is to separate the javascript, stylesheet and html. This allows better integration of web pages.
 
-[View a template example form view](https://github.com/genemu/GenemuFormBundle/blob/master/Resources/doc/template.md)
+[View a template example form view](Resources/doc/template.md)
 
 ## Note
 
