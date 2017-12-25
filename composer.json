@@ -1,5 +1,5 @@
 {
-    "name": "genemu/form-bundle",
+    "name": "symfony-hackers/form-bundle",
     "type": "symfony-bundle",
     "description": "Extra form types for your Symfony2 projects",
     "keywords": ["form", "extra form"],
@@ -15,7 +15,7 @@
         },
         {
             "name": "Community contributions",
-            "homepage": "https://github.com/genemu/GenemuFormBundle/contributors"
+            "homepage": "https://github.com/symfony-hackers/SHFormBundle/contributors"
         }
     ],
     "require": {
@@ -31,11 +31,10 @@
         "doctrine/mongodb-odm-bundle": "For MongoDB integration"
     },
     "autoload": {
-        "psr-0": {
-            "Genemu\\Bundle\\FormBundle": ""
+        "psr-4": {
+            "SymfonyHackers\\Bundle\\FormBundle": ""
         }
     },
-    "target-dir": "Genemu/Bundle/FormBundle",
     "extra": {
         "branch-alias": {
             "dev-master": "3.0-dev"
