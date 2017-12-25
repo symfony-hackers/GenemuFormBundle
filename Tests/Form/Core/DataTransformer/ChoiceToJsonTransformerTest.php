@@ -1,20 +1,12 @@
 <?php
 
-/*
- * This file is part of the GenemuFormBundle package.
- *
- * (c) Olivier Chauvel <olivier@generation-multiple.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace SymfonyHackers\Bundle\FormBundle\Tests\Core\DataTransformer;
 
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Form\Extension\Core\ChoiceList\SimpleChoiceList;
 use SymfonyHackers\Bundle\FormBundle\Form\Core\DataTransformer\ChoiceToJsonTransformer;
 
-class ChoiceToJsonTransformerTest extends \PHPUnit_Framework_TestCase
+class ChoiceToJsonTransformerTest extends TestCase
 {
     public function testReverseEmptySimpleValue()
     {
@@ -37,7 +29,7 @@ class ChoiceToJsonTransformerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException Symfony\Component\Form\Exception\TransformationFailedException
+     * @expectedException \Symfony\Component\Form\Exception\TransformationFailedException
      */
     public function testReverseMultipleShouldBeFalse()
     {
@@ -50,7 +42,7 @@ class ChoiceToJsonTransformerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException Symfony\Component\Form\Exception\TransformationFailedException
+     * @expectedException \Symfony\Component\Form\Exception\TransformationFailedException
      */
     public function testReverseMultipleShouldBeTrue()
     {

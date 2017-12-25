@@ -1,24 +1,13 @@
 <?php
 
-/*
- * This file is part of the GenemuFormBundle package.
- *
- * (c) Olivier Chauvel <olivier@generation-multiple.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace SymfonyHackers\Bundle\FormBundle\Tests\Gd\Filter;
 
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\File\File;
 
 use SymfonyHackers\Bundle\FormBundle\Gd\Filter\Text;
 
-/**
- * @author Olivier Chauvel <olivier@generation-multiple.com>
- */
-class TextTest extends \PHPUnit_Framework_TestCase
+class TextTest extends TestCase
 {
     public function setUp()
     {

@@ -1,22 +1,11 @@
 <?php
 
-/*
- * This file is part of the GenemuFormBundle package.
- *
- * (c) Olivier Chauvel <olivier@generation-multiple.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace SymfonyHackers\Bundle\FormBundle\Tests\Gd\Filter;
 
+use PHPUnit\Framework\TestCase;
 use SymfonyHackers\Bundle\FormBundle\Gd\Filter\GrayScale;
 
-/**
- * @author Olivier Chauvel <olivier@generation-multiple.com>
- */
-class GrayScaleTest extends \PHPUnit_Framework_TestCase
+class GrayScaleTest extends TestCase
 {
     public function setUp()
     {

@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of the GenemuFormBundle package.
- *
- * (c) Olivier Chauvel <olivier@generation-multiple.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace SymfonyHackers\Bundle\FormBundle\Tests;
 
 use Doctrine\ORM\Configuration;
@@ -17,11 +8,9 @@ use Doctrine\ORM\EntityManager;
 
 use Doctrine\Common\Annotations\AnnotationReader;
 use Doctrine\Common\Cache\ArrayCache;
+use PHPUnit\Framework\TestCase;
 
-/**
- * @author Olivier Chauvel <olivier@generation-multiple.com>
- */
-abstract class DoctrineOrmTestCase extends \PHPUnit_Framework_TestCase
+abstract class DoctrineOrmTestCase extends TestCase
 {
     protected function setUp()
     {
