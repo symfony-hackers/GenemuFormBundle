@@ -12,6 +12,8 @@ env:
     - DRIVER_VERSION="stable"
     - ADAPTER_VERSION="^1.0.0"
     - WITH_ODM=1
+    - WITH_DOCTRINE=1
+    - WITH_FINDER=1
 
 services:
   - mongodb
@@ -64,6 +66,8 @@ before_install:
   - if [[ ${TRAVIS_PHP_VERSION:0:2} == "7." ]]; then pecl install -f mongodb-${DRIVER_VERSION}; fi
   - if [[ ${TRAVIS_PHP_VERSION:0:2} == "7." ]]; then composer config "platform.ext-mongo" "1.6.16" && composer require "alcaeus/mongo-php-adapter=${ADAPTER_VERSION}" --no-update; fi
   - if [[ "$WITH_ODM" = 1 ]]; then composer require doctrine/mongodb-odm-bundle --no-update; fi;
+  - if [[ "$WITH_DOCTRINE" = 1 ]]; then composer require doctrine/doctrine-bundle --no-update; fi;
+  - if [[ "$WITH_FINDER" = 1 ]]; then composer require symfony/finder --no-update; fi;
 
 install: composer update --prefer-dist --no-interaction $COMPOSER_FLAGS
 
