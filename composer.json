@@ -31,6 +31,9 @@
     "require-dev": {
         "phpunit/phpunit": "^5.7.11"
     },
+    "conflict": {
+        "genemu/form-bundle": "*"
+    },
     "suggest": {
         "symfony/twig-bridge": "For integration into Twig templates",
         "doctrine/doctrine-bundle": "In order to use some form types with Doctrine",
