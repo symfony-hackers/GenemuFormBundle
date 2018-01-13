@@ -15,7 +15,7 @@ class Configuration implements ConfigurationInterface
     {
         $treeBuilder = new TreeBuilder();
 
-        $rootNode = $treeBuilder->root('genenu_form');
+        $rootNode = $treeBuilder->root('sh_form');
 
         $this->addCaptcha($rootNode);
         $this->addRecaptcha($rootNode);
