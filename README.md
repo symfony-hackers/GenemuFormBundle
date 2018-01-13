@@ -2,7 +2,7 @@
 
 This package is a **maintainable** fork of [GenemuFormBundle](https://github.com/genemu/GenemuFormBundle)
 
-*If you want to migrate from GenemuFormBundle to SHFormBundle follow [this document](MIGRATE-FROM-GENEMO.md).*
+*If you want to migrate from GenemuFormBundle to SHFormBundle follow [this document](MIGRATE-FROM-GENEMU.md).*
 
 [![Build Status](https://travis-ci.org/symfony-hackers/SHFormBundle.svg?branch=master)](https://travis-ci.org/symfony-hackers/SHFormBundle)
 
