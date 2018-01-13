@@ -3,7 +3,7 @@
 namespace SymfonyHackers\Bundle\FormBundle\Twig\Extension;
 
 use Symfony\Component\Form\FormView;
-use Symfony\Bridge\Twig\Form\TwigRendererInterface;
+use Symfony\Component\Form\FormRendererInterface;
 
 /**
  * FormExtension extends Twig with form capabilities.
@@ -14,16 +14,16 @@ class FormExtension extends \Twig_Extension
      * This property is public so that it can be accessed directly from compiled
      * templates without having to call a getter, which slightly decreases performance.
      *
-     * @var \Symfony\Component\Form\FormRendererInterface
+     * @var FormRendererInterface
      */
     public $renderer;
 
     /**
      * Constructs.
      *
-     * @param TwigRendererInterface $renderer
+     * @param FormRendererInterface $renderer
      */
-    public function __construct(TwigRendererInterface $renderer)
+    public function __construct(FormRendererInterface $renderer)
     {
         $this->renderer = $renderer;
     }
