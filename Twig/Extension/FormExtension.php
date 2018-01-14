@@ -56,12 +56,4 @@ class FormExtension extends \Twig_Extension
 
         return $this->renderer->searchAndRenderBlock($view, $block);
     }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getName()
-    {
-        return 'genemu.twig.extension.form';
-    }
 }
