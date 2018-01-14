@@ -5,7 +5,7 @@ By default, just use the default configuration of select2.
 ### Configuration example:
 ``` yml
 # app/config/config.yml
-genemu_form:
+sh_form:
     select2:
         enabled: true
         configs:

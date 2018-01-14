@@ -45,7 +45,7 @@ class Captcha extends Gd
     {
         $this->session = $session;
         $this->secret = $secret;
-        $this->key = 'genemu_form.captcha';
+        $this->key = 'sh_form.captcha';
     }
 
     public function setOptions(array $options)

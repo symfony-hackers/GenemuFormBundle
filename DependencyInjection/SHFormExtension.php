@@ -13,7 +13,7 @@ use Symfony\Component\Config\FileLocator;
 class SHFormExtension extends Extension
 {
     /**
-     * Responds to the genemu_form configuration parameter.
+     * Responds to the sh_form configuration parameter.
      *
      * @param array            $configs
      * @param ContainerBuilder $container

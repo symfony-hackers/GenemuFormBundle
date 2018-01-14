@@ -3,7 +3,7 @@
 ## Enable it in your app configuration :
 ``` yml
 # app/config/config.yml
-genemu_form:
+sh_form:
     select2: ~
 ```
 

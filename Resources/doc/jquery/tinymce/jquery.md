@@ -4,7 +4,7 @@
 
 ``` yml
 # app/config/config.yml
-genemu_form:
+sh_form:
     tinymce:
         script_url: '/tinymce/tiny_mce.js'
 ```
