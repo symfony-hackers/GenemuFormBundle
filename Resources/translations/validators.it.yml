@@ -1,4 +1,4 @@
-genemu_form:
+sh_form:
     recaptcha:
         incorrect-captcha-sol: Il captcha non è valido
         invalid-site-private-key: La chiave privata non è valida.

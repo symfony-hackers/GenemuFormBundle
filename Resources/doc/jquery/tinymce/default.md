@@ -2,7 +2,7 @@
 
 ``` yml
 # app/config/config.yml
-genemu_form:
+sh_form:
     tinymce:
         enabled: true
         theme:   advanced

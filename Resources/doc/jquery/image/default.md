@@ -2,7 +2,7 @@
 
 ``` yml
 # app/config/config.yml
-genemu_form:
+sh_form:
     image:
         enabled:  true
         selected: 'large'

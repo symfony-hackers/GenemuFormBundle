@@ -4,7 +4,7 @@
 
 ``` yml
 # app/config/config.yml
-genemu_form:
+sh_form:
     autocompleter:
         doctrine: false
 ```

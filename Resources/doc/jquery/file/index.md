@@ -6,7 +6,7 @@
 
 ``` yml
 # app/config/config.yml
-genemu_form:
+sh_form:
     file:
         swf: /uploadify/uploadify.swf
 ```

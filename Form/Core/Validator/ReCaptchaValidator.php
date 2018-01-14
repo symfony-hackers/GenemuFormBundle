@@ -70,12 +70,12 @@ class ReCaptchaValidator implements EventSubscriberInterface
 
         if (empty($this->options['code'])) {
             if (empty($datas['challenge']) || empty($datas['response'])) {
-                $error = 'genemu_form.recaptcha.incorrect-captcha-sol';
+                $error = 'sh_form.recaptcha.incorrect-captcha-sol';
             } elseif (true !== ($answer = $this->check($datas, $form->getConfig()->getAttribute('option_validator')))) {
-                $error = 'genemu_form.recaptcha.unable-to-check-the-captcha-from-the-server';
+                $error = 'sh_form.recaptcha.unable-to-check-the-captcha-from-the-server';
             }
         } elseif ($this->options['code'] != $datas['response']) {
-            $error = 'genemu_form.recaptcha.incorrect-captcha-sol';
+            $error = 'sh_form.recaptcha.incorrect-captcha-sol';
         }
 
         if (!empty($error)) {

@@ -1,4 +1,4 @@
-genemu_form:
+sh_form:
     recaptcha:
         incorrect-captcha-sol: Įvestas kodas neteisingas.
         invalid-site-private-key: Neteisingas privatus raktas.

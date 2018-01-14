@@ -4,7 +4,7 @@
 
 ``` yml
 # app/config/config.yml
-genemu_form:
+sh_form:
     recaptcha:
         public_key:  `your public key is required`
         private_key: `your private key is required`
@@ -16,7 +16,7 @@ You can define a static code for your test environment:
 
 ``` yml
 # app/config/config_test.yml
-genemu_form:
+sh_form:
     recaptcha:
         validation:
             code: 1234

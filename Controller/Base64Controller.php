@@ -25,7 +25,7 @@ class Base64Controller implements ContainerAwareInterface
     public function refreshCaptchaAction()
     {
         $captcha = $this->container->get('genemu.gd.captcha');
-        $options = $this->container->get('session')->get('genemu_form.captcha.options', array());
+        $options = $this->container->get('session')->get('sh_form.captcha.options', array());
         $captcha->setOptions($options);
         $datas = preg_split('([;,]{1})', substr($captcha->getBase64(), 5));
 
