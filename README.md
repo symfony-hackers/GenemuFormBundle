@@ -1,6 +1,8 @@
+# This repository is abandoned and not maintained.
+
 # SHFormBundle
 
-This package is a **maintainable** fork of [GenemuFormBundle](https://github.com/genemu/GenemuFormBundle)
+This package is a fork of [GenemuFormBundle](https://github.com/genemu/GenemuFormBundle)
 
 *If you want to migrate from GenemuFormBundle to SHFormBundle follow [this document](MIGRATE-FROM-GENEMU.md).*
 
